@@ -4,6 +4,7 @@ import numpy as np
 
 # Load model
 model = joblib.load("Logistic_Model.pkl")
+st.write("Model expects", model.n_features_in_, "features")
 
 # Title
 st.title("Logistic Regression Prediction App")
