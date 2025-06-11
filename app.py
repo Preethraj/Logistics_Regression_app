@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load your trained model
-model = joblib.load("logistic_model.pkl")
+model = joblib.load("Logistic_Model.pkl")
 
 # App title
 st.title("Titanic Survival Prediction")
