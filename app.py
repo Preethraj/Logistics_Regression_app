@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load your trained model
-model = joblib.load("logistic_model.pkl")
+model = joblib.load("Logistic_Model.pkl")
 
 # App title
 st.title("Logistic Regression Predictor")
